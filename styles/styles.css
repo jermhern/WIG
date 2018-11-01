@@ -1,0 +1,28 @@
+/*fix offset*/
+body {
+	margin: 0;
+}
+
+/*green colored box*/
+#box-1 {
+	background-color: #66ff99;
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+/*box for text inside rectangle*/
+.inner-box {
+	background-color: white;
+	width: 75%;
+	height: 150px;
+	position: absolute;
+	margin: 10% 13%;
+	box-shadow: 2px 2px 7px black;
+}
+
+.inner-box h1 {
+	margin: 7% 0 0 0;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
