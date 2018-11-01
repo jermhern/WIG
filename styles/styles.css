@@ -1,11 +1,12 @@
 /*fix offset*/
 body {
 	margin: 0;
+	background-color: #FFF1D0;
 }
 
-/*green colored box*/
+/*first colored box*/
 #box-1 {
-	background-color: #66ff99;
+	background-color: #F0C808;
 	width: 100%;
 	height: 400px;
 	position: relative;
@@ -25,4 +26,23 @@ body {
 	margin: 7% 0 0 0;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+}
+
+/*second colored box*/
+#box-2 {
+	top: 50%;
+	margin-top: 20%;
+	background-color: #DD1C1A;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+/*third colored box*/
+#box-3 {
+	top: 60%;
+	background-color: #07A0C3;
+	width: 100%;
+	height: 300px;
+	position: relative;
 }
