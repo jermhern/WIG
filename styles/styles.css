@@ -4,6 +4,19 @@ body {
 	background-color: #FFF1D0;
 }
 
+button {
+	background-color: grey;
+	color: white;
+	font-size: 1.3em;
+	margin-top: 4%;
+	width: 90%;
+	font-family: 'Poppins', sans-serif;
+}
+
+button:active {
+	background-color: #DD1C1A;
+}
+
 /*first colored box*/
 #box-1 {
 	background-color: #F0C808;
@@ -18,14 +31,26 @@ body {
 	width: 75%;
 	height: 150px;
 	position: absolute;
-	margin: 10% 13%;
+	margin: 12% 13%;
 	box-shadow: 2px 2px 7px black;
+	text-align: center;
 }
 
 .inner-box h1 {
 	margin: 7% 0 0 0;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+}
+
+#small-inner-box {
+	background-color: white;
+	width: 35%;
+	height: 150px;
+	margin: 12% 33%;
+	position: absolute;
+	box-shadow: 2px 2px 7px black;
+	text-align: center;
 }
 
 /*second colored box*/
@@ -34,7 +59,8 @@ body {
 	margin-top: 20%;
 	background-color: #DD1C1A;
 	width: 100%;
-	height: 500px;
+	height: 400px;
+	text-align: center;
 	position: relative;
 }
 
@@ -43,6 +69,6 @@ body {
 	top: 60%;
 	background-color: #07A0C3;
 	width: 100%;
-	height: 300px;
+	height: 400px;
 	position: relative;
 }
